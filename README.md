@@ -52,7 +52,18 @@ pip install -r requirements.txt
 ```
 ## 3.Add your Groq API key
 Either:
+
 • Add a .env file in the root with:
 ```bash
 Groq API Key = "your_groq_api_key_here"
+```
+
+(Note: Your current .env file is included. DO NOT push it to GitHub — it's sensitive!)
+Or:
+
+• Enter your key in the sidebar when running the app.
+
+## 4. Run the Streamlit app
+```bash
+streamlit run app.py
 ```
