@@ -45,3 +45,8 @@ git clone https://github.com/your-username/ChatSQL.git
 cd ChatSQL
 ```
 ## 2.Create virtual environment and install dependencies
+```bash
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+```
