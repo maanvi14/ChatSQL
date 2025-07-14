@@ -25,3 +25,14 @@ Databases Supported: SQLite (finance.db) and MySQL
 ORM & Engine: SQLAlchemy
 
 Deployment: Localhost or Streamlit Cloud
+
+## Features
+🔍 Chat with your finance data – Ask questions like “What’s my total spending this month?” or “Show all grocery expenses from July.”
+
+🧑‍💻 LLaMA 3-powered natural language → SQL conversion
+
+🗃️ SQLite & MySQL support with switchable modes
+
+🧰 LangChain SQL AgentType used for reasoning and planning
+
+🔐 Secure runtime API key usage (via .env or input field)
