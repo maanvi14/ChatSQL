@@ -36,3 +36,37 @@ Deployment: Localhost or Streamlit Cloud
 🧰 LangChain SQL AgentType used for reasoning and planning
 
 🔐 Secure runtime API key usage (via .env or input field)
+
+🛠️ Setup Instructions
+1. Clone the repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/ChatSQL.git
+cd ChatSQL
+2. Create virtual environment and install dependencies
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+3. Add your Groq API key
+Either:
+
+Add a .env file in the root with:
+
+java
+Copy
+Edit
+Groq API Key = "your_groq_api_key_here"
+(Note: Your current .env file is included. DO NOT push it to GitHub — it's sensitive!)
+Or:
+
+Enter your key in the sidebar when running the app.
+
+4. Run the Streamlit app
+bash
+Copy
+Edit
+streamlit run app.py
