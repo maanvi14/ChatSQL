@@ -2,7 +2,7 @@
 
 Natural Language SQL Assistant | Built with Streamlit, LangChain, Groq API, SQLite & MySQL
 
-🚀## Overview
+## Overview
 
 ChatSQL is a smart, chat-based web application that lets users query structured databases like SQLite and MySQL using plain English. Powered by LangChain’s SQL Agent Toolkit and Groq’s LLaMA 3 LLM, this app bridges the gap between complex SQL syntax and natural user interaction.
 
