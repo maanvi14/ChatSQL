@@ -37,6 +37,15 @@ Deployment: Localhost or Streamlit Cloud
 
 🔐 Secure runtime API key usage (via .env or input field)
 
+## 📦 File Structure
+```bash
+├── app.py              # Main Streamlit application
+├── sqlite.py           # Generates sample finance.db
+├── .env                # API Key (exclude from Git)
+├── requirements.txt    # All dependencies
+
+```
+
 ## 🛠️ Setup Instructions
 
 ## 1. Clone the repository
@@ -59,6 +68,7 @@ Groq API Key = "your_groq_api_key_here"
 ```
 
 (Note: Your current .env file is included. DO NOT push it to GitHub — it's sensitive!)
+
 Or:
 
 • Enter your key in the sidebar when running the app.
