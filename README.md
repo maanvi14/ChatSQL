@@ -40,8 +40,8 @@ Deployment: Localhost or Streamlit Cloud
 ## 🛠️ Setup Instructions
 
 1. Clone the repository
---bash
-  git clone https://github.com/your-username/ChatSQL.git
-  cd ChatSQL
---
+```bash
+git clone https://github.com/your-username/ChatSQL.git
+cd ChatSQL
+```
 
