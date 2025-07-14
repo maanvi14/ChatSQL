@@ -26,7 +26,7 @@ ORM & Engine: SQLAlchemy
 
 Deployment: Localhost or Streamlit Cloud
 
-## Features
+## 🧠 Features
 🔍 Chat with your finance data – Ask questions like “What’s my total spending this month?” or “Show all grocery expenses from July.”
 
 🧑‍💻 LLaMA 3-powered natural language → SQL conversion
